@@ -25,7 +25,7 @@ from ..utils import ensure_dir
 from .utils import normalize_file_path
 
 
-_CONFIG_FILE = os.path.expanduser('~/.backslash/config.json')
+_CONFIG_FILE = os.path.expanduser('.backslash/config.json')
 
 _logger = logbook.Logger(__name__)
 
